@@ -9,6 +9,6 @@ def progressBar(count, total, suffix=''):
 
     sys.stdout.write('[%s] %s%s ...%s\r' % (bar, percent, '%', suffix))
 
-for i in range(10):
+for i in range(1000):
     time.sleep(1)
-    progressBar(i, 10)
+    progressBar(i, 1000)
